@@ -9,7 +9,7 @@ const Login = () => {
   const handleLogin = () => {
     localStorage.setItem("loopswap-auth", "true");
 
-    navigate("/");
+    window.location.href = "/";
   };
 
   return (

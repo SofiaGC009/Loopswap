@@ -8,7 +8,7 @@ const Sidebar = () => {
     "loopswap-auth"
   )
 
-  navigate("/login")
+  window.location.href = "/login"
 }
   return (
     <aside className="hidden w-72 flex-col border-r border-gray-200 bg-white p-6 lg:flex">
